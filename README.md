@@ -18,6 +18,8 @@ To protect its market share and rebuild customer confidence, the company needs a
 The dataset for this project is from Amdari website.
 
 ####  Database Design and Data Management with PostgreSQL
+#### PostgreSQL Scrpit
+- [Download Full Code block here](https://github.com/yiadomboakye/Enhancing-Brand-Reputation-with-Social-Media-Monitoring/blob/main/PostgresSQL%20Script.ssmssln)
 ``` CREATE DATABASE AfriTechDB;
 CREATE TABLE StagingData(
 CustomerID INT,
@@ -49,67 +51,7 @@ ResolutionStatus BOOLEAN,
 NPSResponse INT
 );
 
-CREATE TABLE CustomerData(
-CustomerID INT PRIMARY KEY,
-CustomerName VARCHAR(255),
-Region VARCHAR(255),
-Age INT,
-Income NUMERIC(10,2),
-CustomerType VARCHAR(50)
-);
 
-CREATE TABLE Transactions(
-TransactionID SERIAL PRIMARY KEY,
-CustomerID INT,
-TransactionYear VARCHAR(4),
-TransactionDate DATE,
-ProductPurchased VARCHAR(255),
-PurchaseAmount NUMERIC(10,2),
-ProductRecalled BOOLEAN,
-Competitor VARCHAR(255),
-FOREIGN KEY (CustomerID) REFERENCES CustomerData(CustomerID)
-);
-
-CREATE TABLE SocialMedia(
-PostID SERIAL PRIMARY KEY,
-CustomerID INT,
-InteractionDate DATE,
-Platform VARCHAR(50),
-PostType VARCHAR(50),
-EngagementLikes INT,
-EngagementShares INT,
-EngagementComments INT,
-UserFollowers INT,
-InfluencerScore NUMERIC(10,2),
-BrandMention BOOLEAN,
-CompetitorMention BOOLEAN,
-Sentiment VARCHAR(50),
-CrisisEventTime DATE,
-FirstResponseTime DATE,
-ResolutionStatus BOOLEAN,
-NPSResponse INT,
-FOREIGN KEY (CustomerID) REFERENCES CustomerData(CustomerID)
-);
-
--- Insert into customer Data
-
-
-INSERT INTO CustomerData(CustomerID,CustomerName, Region,Age, Income, CustomerType )
-SELECT DISTINCT CustomerID,CustomerName,Region,Age, Income, CustomerType
-FROM stagingData;
-
--- Insert into Transactions
-
-INSERT INTO Transactions(CustomerID,TransactionYear,TransactionDate,ProductPurchased,PurchaseAmount,ProductRecalled,Competitor)
-SELECT  CustomerID,TransactionYear,TransactionDate,ProductPurchased,PurchaseAmount,ProductRecalled,Competitor
-FROM stagingData
-where transactionDate is not null;
-
--- Insert into Social Media
-INSERT INTO SocialMedia(CustomerID,InteractionDate,Platform,PostType,EngagementLikes,EngagementShares,EngagementComments,UserFollowers,InfluencerScore,BrandMention,CompetitorMention,Sentiment,CrisisEventTime,FirstResponseTime,ResolutionStatus,NPSResponse)
-SELECT CustomerID,InteractionDate,Platform,PostType,EngagementLikes,EngagementShares,EngagementComments,UserFollowers,InfluencerScore,BrandMention,CompetitorMention,Sentiment,CrisisEventTime,FirstResponseTime,ResolutionStatus,NPSResponse
-FROM stagingData
-where InteractionDate is not null;```
 
 
 

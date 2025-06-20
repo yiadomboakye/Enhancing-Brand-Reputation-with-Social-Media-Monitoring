@@ -7,8 +7,8 @@
 - [Data Source](#data-source)
 - [EDA](#eda)
 - [Data Modelling](#data-modelling)
-- [Interactive Report Design and Analysis](#interactive-report-design-analysis)
-- [Findings/ Insights and Recommendation](#findings-insights-recommendations)
+- [Interactive Report Design and Analysis](#interactive-report)
+- [Findings/ Insights and Recommendation](#findings-recommendations)
 
 ### Project Overview
 AfriTech Electronics Ltd., a leading innovator in the global consumer electronics market, has established a strong presence through its cutting-edge smartphones, tablets, and wearable technologies. Despite its notable revenue performance and growing workforce, the company is now facing reputational challenges that threaten its market standing.

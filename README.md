@@ -60,11 +60,18 @@ The majority of the exploratory data analysis (EDA) was conducted using SQL quer
 The dataset was imported into Power BI using SQL queries from a PostgreSQL database. Three primary tables were used: public.socialmedia, public.customerdata, and public.transactions. A many-to-one relationship was established from both the socialmedia and transactions tables to the customerdata table via the CustomerID key, ensuring referential integrity and enabling accurate aggregation across entities.
 Additionally, a date dimension table was created and linked to relevant date fields using a one-to-many relationship. This enabled the use of advanced DAX time intelligence functions, such as SAMEPERIODLASTYEAR, to support accurate year-over-year performance analysis.
 
+![Brand Reputation model view](https://github.com/user-attachments/assets/8269435b-19a2-49e2-a396-449e855a95cd)
 
 
+### Interactive Report Design and Analysis
+To effectively address AfriTech’s business challenges, three purpose-built dashboards were developed in Power BI, each targeting a specific aspect of the brand’s performance and customer dynamics:
+- Customer and Sales Dashboard: Focused on customer demographics, purchasing behavior, and revenue trends across regions and time.
+
+- Brand Sentiment Dashboard: Analyzed social media conversations using sentiment metrics to track public perception, influencer impact, and engagement levels.
+
+- Crisis Management Dashboard: Highlighted potential risk areas by surfacing spikes in negative sentiment, tracking response times, and visualizing resolution status.
 
 
-
-
+#### Customer and Sales Dashboard
 
 

@@ -73,7 +73,7 @@ To effectively address AfriTech’s business challenges, three purpose-built das
   To enhance user experience and enable seamless navigation, dynamic page navigation buttons were implemented, allowing users to switch between dashboards intuitively within the report interface.
 
 
-#### Customer and Sales Dashboard
+#### Customer Demographics and Sales Dashboard
 
 ![Customer Demographics and Sales Dashboard](https://github.com/user-attachments/assets/e52ac871-8dd7-49a1-a81e-9e0e9c12593c)
 
@@ -88,10 +88,21 @@ To effectively address AfriTech’s business challenges, three purpose-built das
 ![Crisis Management Analysis](https://github.com/user-attachments/assets/748bd26f-64ab-4e7c-936b-485609a5a644)
 
 
-#### Findings and Recommendaions
+#### Findings / Insights and Recommendaions
+Download the insights and recommendations for the analysis:
 
-- [Download Powerpoint Presentation here](https://github.com/user-attachments/files/20830411/Brand.Sentiment.Analysis.pptx)
+#### Customer Demographics and Sales
 
-  
-- [Download pdf here](https://github.com/user-attachments/files/20830463/Brand.sentiment.Analysis.pdf)
+- [Customer and Sales Analysis.pptx](https://github.com/user-attachments/files/20833742/Customer.and.Sales.Analysis.pptx)
 
+ - [Customer and Sales Analysis.pdf](https://github.com/user-attachments/files/20833712/Customer.and.Sales.Analysis.pdf)
+
+#### Brand Sentiment 
+
+- [Brand Sentiment Analysis.pptx](https://github.com/user-attachments/files/20833903/Brand.Sentiment.Analysis.pptx)
+
+- [Brand Sentiment Analysis.pdf](https://github.com/user-attachments/files/20833915/Brand.sentiment.Analysis.pdf)
+
+#### Crisis Management
+
+- [Crisis_Management Analysis.pdf](https://github.com/user-attachments/files/20833859/crisis_management_dashboard_.pdf)

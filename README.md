@@ -20,7 +20,9 @@ The dataset for this project is from Amdari website.
 ####  Database Design and Data Management with PostgreSQL
 #### PostgreSQL Scrpit
 - [Download Full Code block here](https://github.com/yiadomboakye/Enhancing-Brand-Reputation-with-Social-Media-Monitoring/blob/main/PostgresSQL%20Script.ssmssln)
-``` CREATE DATABASE AfriTechDB;
+``` Sql
+-- Database Design
+CREATE DATABASE AfriTechDB;
 CREATE TABLE StagingData(
 CustomerID INT,
 CustomerName TEXT,
@@ -50,6 +52,17 @@ FirstResponseTime DATE,
 ResolutionStatus BOOLEAN,
 NPSResponse INT
 );
+```
+### EDA
+The majority of the exploratory data analysis (EDA) was conducted using SQL queries in PostgreSQL to clean, aggregate, and structure the data. Additional visual exploration was carried out in Power BI to identify trends and support my dashboard development.
+
+### Data Modelling
+The dataset was imported into Power BI using SQL queries from a PostgreSQL database. Three primary tables were used: public.socialmedia, public.customerdata, and public.transactions. A many-to-one relationship was established from both the socialmedia and transactions tables to the customerdata table via the CustomerID key, ensuring referential integrity and enabling accurate aggregation across entities.
+Additionally, a date dimension table was created and linked to relevant date fields using a one-to-many relationship. This enabled the use of advanced DAX time intelligence functions, such as SAMEPERIODLASTYEAR, to support accurate year-over-year performance analysis.
+
+
+
+
 
 
 

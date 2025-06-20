@@ -82,9 +82,16 @@ To effectively address AfriTech’s business challenges, three purpose-built das
 
 ![Brand Sentiment 1](https://github.com/user-attachments/assets/14b37dae-baee-4c8a-8d91-d735a1cca85f)
 
+
 #### Crisis Management Dashboard
 
 ![Crisis Management Analysis](https://github.com/user-attachments/assets/748bd26f-64ab-4e7c-936b-485609a5a644)
 
 
+#### Findings and Recommendaions
+
+- [Download Powerpoint Presentation here](https://github.com/user-attachments/files/20830411/Brand.Sentiment.Analysis.pptx)
+
+  
+- [Download pdf here](https://github.com/user-attachments/files/20830463/Brand.sentiment.Analysis.pdf)
 

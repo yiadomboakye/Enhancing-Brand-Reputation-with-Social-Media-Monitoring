@@ -70,8 +70,21 @@ To effectively address AfriTech’s business challenges, three purpose-built das
 - Brand Sentiment Dashboard: Analyzed social media conversations using sentiment metrics to track public perception, influencer impact, and engagement levels.
 
 - Crisis Management Dashboard: Highlighted potential risk areas by surfacing spikes in negative sentiment, tracking response times, and visualizing resolution status.
+  To enhance user experience and enable seamless navigation, dynamic page navigation buttons were implemented, allowing users to switch between dashboards intuitively within the report interface.
 
 
 #### Customer and Sales Dashboard
+
+![Customer Demographics and Sales Dashboard](https://github.com/user-attachments/assets/e52ac871-8dd7-49a1-a81e-9e0e9c12593c)
+
+
+#### Brand Sentiment Dashboard
+
+![Brand Sentiment 1](https://github.com/user-attachments/assets/14b37dae-baee-4c8a-8d91-d735a1cca85f)
+
+#### Crisis Management Dashboard
+
+![Crisis Management Analysis](https://github.com/user-attachments/assets/748bd26f-64ab-4e7c-936b-485609a5a644)
+
 
 
